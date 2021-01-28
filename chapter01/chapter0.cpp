@@ -1,13 +1,14 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
     // Chapter 0 snippets
-    std::cout << "Hello World!" << std::endl;
-    std::cout << "This (\") is a quote, and this (\\) is a backslash." << std::endl;
-    std::cout << "Tab \t test" << std::endl;
+    cout << "Hello World!" << endl;
+    cout << "This (\") is a quote, and this (\\) is a backslash." << std::endl;
+    cout << "Tab \t test" << endl;
 
-    return 0;
+    //eturn 0;
 }
 
 // Chater 0 notes

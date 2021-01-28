@@ -5,6 +5,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
+
 int main()
 {
     // ask for the person's name

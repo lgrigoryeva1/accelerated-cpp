@@ -1,0 +1,16 @@
+18.13 When to use an unnamed namespace? 
+18.14
+18.15 Explain the difference
+directive: using namespace std
+declaration: std::cout
+
+In a directive, every variable from the namespace std is available in local lookup, e.g. I can access "cin" and "cout" without writing "std" in front of it
+In a declaration, I specify the namespace when I call its variable, e.g. std::cout 
+The latter is preferred to avoid name collisions
+
+18.16 Explain the following code
+18.17
+18.18
+18.19
+18.20
+

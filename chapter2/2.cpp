@@ -16,7 +16,7 @@ int main()
     const string greeting = "Hello, " + name + "!";
     // num of blanks around greeting
     const int pad = 1;
-    const int side_pad = 3;
+    const int side_pad = 6;
     //total num of rows
     const int rows = pad * 2 + 3;
     const string::size_type cols = greeting.size() + side_pad * 2 + 2;
